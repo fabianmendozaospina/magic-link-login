@@ -83,4 +83,4 @@ you are ready to go 🚀.
 
 It is very simple, a picture is worth a thousand words:
 
-![usage](https://github.com/FabianMendoza7/magic-link-login/assets/81333325/f61da761-336e-4a81-8c49-164eac17b92b)
+![usage](https://github.com/FabianMendoza7/magic-link-login/assets/81333325/a687533e-9c2e-4b9d-a212-2454041cf534)
