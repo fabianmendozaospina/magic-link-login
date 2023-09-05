@@ -1,9 +1,6 @@
 # Magic Link Login
 
-This is a simple but powerful example that will show you how to build web
-applications with Deno Fresh that allow users to sign up with a magic link
-provided by Supabase, as well as update your profile data, including your
-profile photo.
+This is a simple but powerful example that will show you how to build a web application with Deno Fresh that allows users to sign up and sign in with a magic link provided by Supabase, as well as update your profile data, including your profile photo.
 
 This repo will demonstrate how to:
 
