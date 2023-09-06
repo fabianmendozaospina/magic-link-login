@@ -1,9 +1,9 @@
 # Magic Link Login
 
-This is a simple but powerful example that will show you how to build web
-applications with Deno Fresh that allow users to sign up with a magic link
-provided by Supabase, as well as update your profile data, including your
-profile photo.
+This is a simple but powerful example that will show you how to build a web
+application with Deno Fresh that allows users to sign up and sign in with a
+magic link provided by Supabase, as well as update your profile data, including
+your profile photo.
 
 This repo will demonstrate how to:
 
@@ -57,7 +57,9 @@ server environments and never on a client or browser.
 
 _Reference (Steps 1-3 of the Getting Started): Supabase_
 
-### 4. Config env vars
+### 4. Setup
+
+#### Config env vars
 
 In the `supabase` folder, open the `config.json` file, or alternatively create a
 `.env` file in the project's root. Set the value of the following variables with
@@ -68,10 +70,19 @@ SUPABASE_URL
 SUPABASE_ANON_KEY
 ```
 
-### 5. Extensions
+#### Extensions
 
 For a better development experience, install the `Deno` extension from the
 `denoland` publisher in Visual Studio Code.
+
+#### Catching
+
+Download in the local cache all of the project's dependencies running the
+following command:
+
+```
+deno cache import_map.json
+```
 
 ### 6. Run the application
 
@@ -83,4 +94,4 @@ you are ready to go 🚀.
 
 It is very simple, a picture is worth a thousand words:
 
-![usage](https://github.com/FabianMendoza7/magic-link-login/assets/81333325/a687533e-9c2e-4b9d-a212-2454041cf534)
+![usage](https://github.com/FabianMendoza7/magic-link-login/assets/81333325/b7c248ab-c39f-45a8-a6a9-f3644679ab09)
