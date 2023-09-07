@@ -1,13 +1,9 @@
 # Magic Link Login
 
-<<<<<<< HEAD
 This is a simple but powerful example that will show you how to build a web
 application with Deno Fresh that allows users to sign up and sign in with a
 magic link provided by Supabase, as well as update your profile data, including
 your profile photo.
-=======
-This is a simple but powerful example that will show you how to build a web application with Deno Fresh that allows users to sign up and sign in with a magic link provided by Supabase, as well as update your profile data, including your profile photo.
->>>>>>> 88b9a65edc77d69ec8123c348330085ef28769d5
 
 This repo will demonstrate how to:
 
@@ -37,12 +33,11 @@ new project. Wait for your database to start.
 ### 2. Run "User Management" Quickstart
 
 After your database has been initiated, navigate to your project's `SQL Editor`
-and launch the "User Management Starter" quickstart. On the `SQL editor` page,
-scroll down until you locate `User Management Starter`, which establishes a
-public Profiles table accessible through your API. Click on this option and then
-hit the `RUN` button to execute the query and create a new `profiles` table.
-Once this is complete, proceed to the `Table Editor` to view your newly created
-`profiles` table.
+and click on `Quickstart`, then on `User Management Starter`, which generates a
+script for the creation of a public `profiles` table accessible through your
+API. Finally, press the `RUN` button to execute the script. Once this is
+complete, proceed to the `Table Editor` to view your newly created `profiles`
+table.
 
 ### 3. Get the URL and Key
 
@@ -65,9 +60,8 @@ _Reference (Steps 1-3 of the Getting Started): Supabase_
 
 #### Config env vars
 
-In the `supabase` folder, open the `config.json` file, or alternatively create a
-`.env` file in the project's root. Set the value of the following variables with
-the `URL` and the `anon` data respectively:
+In the `supabase` folder, open the `config.json` file, and set the value of the
+following variables with the `URL` and the `anon` data respectively:
 
 ```
 SUPABASE_URL
@@ -79,10 +73,10 @@ SUPABASE_ANON_KEY
 For a better development experience, install the `Deno` extension from the
 `denoland` publisher in Visual Studio Code.
 
-#### Catching
+#### Caching
 
-Download in the local cache all of the project's dependencies running the
-following command:
+Download in the local cache all of the project's dependencies, by running the
+the following command:
 
 ```
 deno cache import_map.json
@@ -98,4 +92,4 @@ you are ready to go 🚀.
 
 It is very simple, a picture is worth a thousand words:
 
-![usage](https://github.com/FabianMendoza7/magic-link-login/assets/81333325/b7c248ab-c39f-45a8-a6a9-f3644679ab09)
+![usage](https://github.com/FabianMendoza7/magic-link-login/assets/81333325/fa9c039f-a85c-43a7-a75a-8084834b34e1)
