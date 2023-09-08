@@ -79,7 +79,7 @@ Download in the local cache all of the project's dependencies, by running the
 the following command:
 
 ```
-deno cache import_map.json
+deno cache dev.ts
 ```
 
 ### 6. Run the application
