@@ -15,7 +15,7 @@ This repo will demonstrate how to:
 
 - Frontend:
   - [Fresh](https://fresh.deno.dev/docs/getting-started): a modern framework for
-    the creation of the web application.
+    creating the web application, through the use of `preact`.
   - [Supabase.js](https://supabase.com/docs/library/getting-started): client
     library for user management and real-time data syncing.
 - Backend:
@@ -93,3 +93,11 @@ you are ready to go 🚀.
 It is very simple, a picture is worth a thousand words:
 
 ![usage](https://github.com/FabianMendoza7/magic-link-login/assets/81333325/fa9c039f-a85c-43a7-a75a-8084834b34e1)
+
+### 8. Deploy
+
+Once the application is ready, deploy it to the cloud. A quick alternative is
+through [Deno Deploy](https://deno.com/deploy). Copy the deployed URL. In the
+Supabase Dashboard, go to the `Project Settings` / `API` option, and replace the
+URL in the Project URL section with the one copied to the clipboard. Save the
+changes. Test the application again but this time in the cloud.
