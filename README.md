@@ -15,7 +15,7 @@ This repo will demonstrate how to:
 
 - Frontend:
   - [Fresh](https://fresh.deno.dev/docs/getting-started): a modern framework for
-    creating the web application, through the use of `preact`.
+    creating the web application, through the use of `Deno` and `Preact`.
   - [Supabase.js](https://supabase.com/docs/library/getting-started): client
     library for user management and real-time data syncing.
 - Backend:
