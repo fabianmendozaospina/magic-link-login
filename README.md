@@ -99,5 +99,5 @@ It is very simple, a picture is worth a thousand words:
 Once the application is ready, deploy it to the cloud. A quick alternative is
 through [Deno Deploy](https://deno.com/deploy). Copy the deployed URL. In the
 Supabase Dashboard, go to the `Project Settings` / `API` option, and replace the
-URL in the Project URL section with the one copied to the clipboard. Save the
+URL in the `Project URL` section with the one copied to the clipboard. Save the
 changes. Test the application again but this time in the cloud.
